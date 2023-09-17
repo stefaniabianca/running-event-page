@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Event</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--Header-->
+    <section class="header">
+        <nav class="navigationMenu">
+            <img class="logo" src="./images/Logo.png">
+            <ul class="menu">
+                <li class="menuItem"><a href="#races">Races</a></li>
+                <li class="menuItem"><a href="#runningKit">Runnning Kit</a></li>
+                <li class="menuItem"><a href="#about">About</a></li>
+                <li class="menuItem"><a href="#faqs">FAQs</a></li>
+                <li class="menuItem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!--Hero Section-->
+    <section class="heroSection">
+        <p class="heroText">Choose your<br> next challenge</p>
+        <button class="animatedButton registrationButton">Register Now</button>
+    </section>
+
+    <!--Countdown-->
+    <section class="countdownSection">
+
+        <div class="startCountdown">
+            <p>
+                See you at the start line!
+            </p>
+        </div>
+
+        <div class="countdownContainer">
+            <div class="coutdownItem">
+                <p class="countdownNum" id="days">00</p>
+                <p class="countdownText">Days</p>
+            </div>
+    
+            <div class="coutdownItem">
+                <p class="countdownNum" id="hours">00</p>
+                <p class="countdownText">Hours</p>
+            </div>
+    
+            <div class="coutdownItem">
+                <p class="countdownNum" id="minutes">00</p>
+                <p class="countdownText">Minutes</p>
+            </div>
+    
+            <div class="coutdownItem">
+                <p class="countdownNum" id="seconds">00</p>
+                <p class="countdownText">Seconds</p>
+            </div>
+    
+        </div>
+
+    </section>
+
+    <!--Races-->
+    <section class="racesContainer" id="races">
+        <div class="races">
+            <div class="raceItem">
+                <div class="race cross">
+                    <p class="distance">10 km</p>
+                    <p class="raceTitle">Cross</p>
+                    <button class="showMapBtn">Show map</button>
+                </div>
+           </div>
+    
+            <div class="raceItem">
+                <div class="race semimarathon">
+                    <p class="distance">21 km</p>
+                    <p class="raceTitle">Half-Marathon</p>
+                    <button class="showMapBtn">Show map</button>
+                </div>
+            </div>
+    
+            <div class="raceItem">
+                <div class="race marathon">
+                    <p class="distance">42 km</p>
+                    <p class="raceTitle">Marathon</p>
+                    <button class="showMapBtn">Show map</button>
+                </div>
+            </div>
+
+        </div>
+       
+
+        <img class="raceMap">
+    </section>
+    
+    <!--Running Kit-->
+    <section class="runningKit" id="runningKit">
+        <h2 class="subtitle">Your Ultimate Running Kit</h2>
+        <hr class="divider">
+        <div class="kitContainer">
+            <img class="runningTshirt" src="./images/OfficialRaceTShirt.png">
+            <div class="kitItems">
+                <p class="kitDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto qui perspiciatis, exercitationem nemo debitis, aliquam id, sint possimus ullam veniam dolor. Laboriosam ea consequatur rerum necessitatibus magnam amet praesentium aspernatur!</p>
+                <p class="kitItem">
+                    <i class="fa-solid fa-shirt"></i>
+                    Dryfit Running Shirt
+                </p> 
+                <p class="kitItem">
+                    <i class="fa-solid fa-medal"></i> 
+                    Finisher medal
+                </p> 
+                <p class="kitItem">
+                    <i class="fa-solid fa-jar"></i>
+                    Monster Energy Drinks
+                </p>
+                <p class="kitItem">
+                    <i class="fa-solid fa-bolt"></i>
+                    2x Energy bars
+                </p>
+                <p class="kitItem">
+                    <i class="fa-solid fa-gift"></i> 
+                    Suprises from our partners
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Desciption-->
+    <section class="aboutSection" id="about">
+        <div class="detailsContainer">
+            <div class="detailsContent">
+                <h2 class="subtitle">About the race</h2>
+                <p class="descriptionText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut voluptate dolores, aliquid odio officiis mollitia possimus repellendus fuga laudantium ducimus saepe dolorum quaerat, vel laborum. Odio explicabo aperiam repudiandae, dignissimos a natus dolorum corporis sint alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto qui perspiciatis, exercitationem nemo debitis, aliquam id, sint possimus ullam veniam dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto qui perspiciatis, exercitationem nemo debitis, aliquam id, sint possimus ullam veniam dolor.</p>
+
+                <div class="raceDetailsContainer">
+                    <p class="raceDetails">
+                        <i class="fa-regular fa-calendar"></i>
+                        <br>25 / 11 / 2023
+                    </p>
+                    <p class="raceDetails">
+                        <i class="fa-solid fa-clock"></i>
+                        <br>9 AM - 1 PM
+                    </p>
+                    <p class="raceDetails">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <br>Pointe Du Cap Martin,<br> Nice, France
+                    </p>
+                </div>
+            </div>
+            <img src="/images/Runner03.png" alt="About the race">
+        </div>
+        
+    </section>
+
+
+    <!--FAQs-->
+    <section class="faqs" id="faqs">
+        <h2 class="subtitle">FAQs</h2>
+        <div class="faq">
+          <div class="question">
+            <p>How can I register?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos consequuntur sint. Optio minus eum odit eos blanditiis sit ipsam praesentium rerum totam. Recusandae natus deleniti aspernatur earum voluptas! Odit, iste quasi perferendis quisquam nostrum deleniti harum, voluptatibus dolor id sapiente nobis accusantium natus ab! Earum accusamus suscipit ducimus iusto.</p>
+        </div>
+    
+        <div class="faq">
+          <div class="question">
+            <p>What are the payment options?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos consequuntur sint. Optio minus eum odit eos blanditiis sit ipsam praesentium rerum totam. Recusandae natus deleniti aspernatur earum voluptas! Odit, iste quasi perferendis quisquam nostrum deleniti harum, voluptatibus dolor id sapiente nobis accusantium natus ab! Earum accusamus suscipit ducimus iusto.</p>
+        </div>
+    
+        <div class="faq">
+          <div class="question">
+            <p>What are the safety measures of the event?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos consequuntur sint. Optio minus eum odit eos blanditiis sit ipsam praesentium rerum totam. Recusandae natus deleniti aspernatur earum voluptas! Odit, iste quasi perferendis quisquam nostrum deleniti harum, voluptatibus dolor id sapiente nobis accusantium natus ab! Earum accusamus suscipit ducimus iusto.</p>
+        </div>
+    
+        <div class="faq">
+          <div class="question">
+            <p>How should I prepare for the race?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos consequuntur sint. Optio minus eum odit eos blanditiis sit ipsam praesentium rerum totam. Recusandae natus deleniti aspernatur earum voluptas! Odit, iste quasi perferendis quisquam nostrum deleniti harum, voluptatibus dolor id sapiente nobis accusantium natus ab! Earum accusamus suscipit ducimus iusto.</p>
+        </div>
+    
+        <div class="faq">
+          <div class="question">
+            <p>How can I connect my watch to the live race tracking?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos consequuntur sint. Optio minus eum odit eos blanditiis sit ipsam praesentium rerum totam. Recusandae natus deleniti aspernatur earum voluptas! Odit, iste quasi perferendis quisquam nostrum deleniti harum, voluptatibus dolor id sapiente nobis accusantium natus ab! Earum accusamus suscipit ducimus iusto.</p>
+        </div>
+        
+    </section>
+
+
+    <!--Contact Banner-->
+    <section class="contactInvite">
+        <p>Still got questions? Feel free to ask us.</p>
+        <button class="animatedButton contactUs">Contact Us</button>
+    </section>
+
+    <!--Partners-->
+    <section class="partnersSection">
+        <h2 class="subtitle">Our trusted partners</h2>
+        <hr class="divider">
+        <div class="partners">
+            <img class="partnerLogo" src="/images/Partners-Nike-Logo.png">
+            <img class="partnerLogo" src="/images/Partners-Garmin-Logo.png">
+            <img class="partnerLogo" src="/images/Partners-Strava-Logo.png">
+            <img class="partnerLogo" src="/images/Partners-World_Athletics_logo.svg.png">
+            <img class="partnerLogo" src="/images/Partners-ITRA-logo.png">
+            <img class="partnerLogo" src="/images/Partners-Monster-Energy-Logo.png">
+
+        </div>
+    </section>
+
+    <div class="popup">
+        <div class="popup-header">
+            <h2 class="popup-title">Register</h2>
+            <button class="close-btn">X</button>
+        </div>
+
+        <div class="registration-form">
+            <form>
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                
+                <div class="field">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                </div>
+                
+                
+                <div class="field">
+                    <label for="category">Choose your category</label>
+                    <select name="category" id="category" required>
+                        <option value="male">Male</option>
+                        <option value="male">Female</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="race">Choose your race</label>
+                    <select name="race" id="category" required>
+                        <option value="cross">10km (Cross)</option>
+                        <option value="half-marathon">21km (Half-Marathon)</option>
+                        <option value="marathon">42km (Marathon)</option>
+                    </select>
+
+                </div>
+
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div id="overlay">
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footerContainer">
+            <div class="footerColumn">
+                <img class="logoFooter" src="/images/Logo.png">
+                <div class="socialIcons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-strava"></i>
+                </div>
+            </div>
+    
+            <div class="footerColumn">
+                <h3>Quick links</h3>
+                <p class="footerPage">Terms and Conditions</p>
+                <p class="footerPage">Privacy Policy</p>
+                <p class="footerPage">Disclaimer</p>
+            </div>
+    
+            <div class="footerColumn" id="contact">
+                <h3>Contact us</h3>
+                <a class="contactBtn" href="tel:5555555555"><i class="fa-solid fa-mobile-screen-button"></i>(555)-555-5555</a><br>
+                <a class="contactBtn" href="mailto:hello@enchantedrun.com"><i class="fa-solid fa-envelope"></i>hello@enchantedrun.com</a>
+    
+            </div>
+    
+            <div class="footerColumn">
+                <h3 class="footerPromo">Are you up for it?</h3>
+                <button class="animatedButton footerBtn">Register Now</button>
+            </div>
+
+        </div>
+
+        
+    </footer>
+
+    <script
+        src="https://kit.fontawesome.com/c7d8ecc708.js"
+        crossorigin="anonymous">
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
