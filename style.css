@@ -1,5 +1,5 @@
 /*General Styling*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,9 +33,9 @@
     letter-spacing: 2px;
     padding: 10px 40px;
     border: none;
-    border-radius:40px;
+    border-radius: 40px;
     box-shadow: rgba(232, 170, 66, 0.35) 0px 5px 15px;
-} 
+}
 
 .animatedButton:hover {
     animation: pulse-on-hover 0.3s linear infinite alternate;
@@ -61,7 +61,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-  }
+}
 
 .navigationMenu {
     width: 90%;
@@ -76,12 +76,12 @@
     margin: auto 0;
 }
 
-.menu > li {
+.menu>li {
     float: left;
     margin: 0 10px;
 }
 
-.menuItem > a {
+.menuItem>a {
     color: #1D4B4D;
     font-size: 16px;
     letter-spacing: 1px;
@@ -90,7 +90,7 @@
     padding-bottom: 10px;
 }
 
-.menuItem > a:hover {
+.menuItem>a:hover {
     color: #E8AA42;
     border-bottom: 1px solid #E8AA42;
     transition: 0.5s ease;
@@ -137,7 +137,7 @@
 }
 
 
-.startCountdown > p {
+.startCountdown>p {
     color: #F8F1F1;
     font-size: 32px;
     margin-top: 40px;
@@ -149,7 +149,7 @@
 }
 
 
-.coutdownItem > p {
+.coutdownItem>p {
     color: #F8F1F1;
     font-size: 32px;
     line-height: 1.1;
@@ -172,7 +172,7 @@
     height: 300px;
     margin: 50px auto;
     padding: 20px;
-    
+
 }
 
 .race {
@@ -246,7 +246,7 @@
     margin: 30px 0 20px 0;
 }
 
-.kitItems > p {
+.kitItems>p {
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -257,7 +257,7 @@
     text-transform: uppercase;
 }
 
-.kitItem > i {
+.kitItem>i {
     font-size: 24px;
     color: #E8AA42;
 }
@@ -276,7 +276,7 @@
     margin: 0 auto;
 }
 
-.detailsContainer > img {
+.detailsContainer>img {
     width: 500px;
 }
 
@@ -284,7 +284,7 @@
     margin-top: 70px;
 }
 
-.detailsContent > h2 {
+.detailsContent>h2 {
     font-size: 32px;
     color: #E8AA42;
     letter-spacing: 2px;
@@ -292,7 +292,7 @@
     text-align: left;
 }
 
-.detailsContent > p {
+.detailsContent>p {
     text-align: justify;
     color: #FFFFFF;
     font-size: 20px;
@@ -305,7 +305,7 @@
     justify-content: space-around;
 }
 
-.raceDetails > i {
+.raceDetails>i {
     color: #E8AA42;
     font-size: 48px;
     margin: 30px 0 15px;
@@ -326,7 +326,8 @@
     position: relative;
     margin: 70px auto;
 }
-.faqs > h2 {
+
+.faqs>h2 {
     margin-bottom: 30px;
 }
 
@@ -345,10 +346,10 @@
 .question {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
-.question > p {
+.question>p {
     font-family: "Prompt", sans-serif;
     font-size: 22px;
 }
@@ -363,12 +364,12 @@
     font-size: 18px;
     line-height: 1.6;
     display: none;
-    
+
 }
 
 .faq.active .answer {
     display: block;
-    
+
 }
 
 /*Contact Section*/
@@ -379,7 +380,7 @@
     padding: 70px 0;
 }
 
-.contactInvite > p {
+.contactInvite>p {
     font-family: "Prompt", sans-serif;
     font-size: 38px;
     color: #F8F1F1;
@@ -403,7 +404,7 @@
 }
 
 .partnerLogo {
-    height: 55px;
+    height: 35px;
     margin-bottom: 20px;
 }
 
@@ -425,14 +426,15 @@ footer {
     height: 100px;
 }
 
-.footerColumn > h3 {
+.footerColumn>h3 {
     color: #E8AA42;
     font-size: 24px;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
 
-.footerPage, .contactBtn {
+.footerPage,
+.contactBtn {
     color: #FFFFFF;
     font-size: 18px;
     letter-spacing: 1px;
@@ -440,20 +442,21 @@ footer {
 
 }
 
-.footerPage:hover, .contactBtn:hover {
+.footerPage:hover,
+.contactBtn:hover {
     cursor: pointer;
     color: #E8AA42;
     transition: 0.5s ease;
 
 }
 
-.socialIcons > i {
+.socialIcons>i {
     color: #E8AA42;
     font-size: 20px;
     padding: 5px;
 }
 
-.socialIcons > i:hover {
+.socialIcons>i:hover {
     cursor: pointer;
     color: #FFFFFF;
 }
@@ -463,7 +466,7 @@ footer {
     margin-top: 10px;
 }
 
-.contactBtn > i {
+.contactBtn>i {
     color: #E8AA42;
     font-size: 20px;
     padding: 7px;
@@ -508,7 +511,7 @@ footer {
     font-weight: bold;
     color: #E8AA42;
     padding: 0;
-   
+
 }
 
 .registration-form {
@@ -521,14 +524,15 @@ footer {
     padding-bottom: 1.2rem;
 }
 
-.field > input, .field > select {
+.field>input,
+.field>select {
     border: none;
     outline: none;
     border-bottom: 1px solid #E8AA42;
     font-size: 1.2rem;
 }
 
-.field > label {
+.field>label {
     font-size: 1.2rem;
 }
 
@@ -546,7 +550,6 @@ footer {
 
 #overlay {
     position: fixed;
-    /* opacity: 0; */
     top: 0;
     left: 0;
     right: 0;
